@@ -377,7 +377,9 @@ msgstr "VERWIJDER"
 msgid "No users to display"
 msgstr "Geen gebruikers om weer te geven"
 
-msgid "Update instance config"
+#, fuzzy
+#| msgid "Update instance config"
+msgid "Update instance configuration"
 msgstr "De configuratie van de instantie bijwerken"
 
 msgid "INSTANCE CONFIG"
@@ -440,6 +442,9 @@ msgstr "Beheerder"
 msgid "Log Out"
 msgstr "Uitloggen"
 
+msgid "Return to Main View"
+msgstr ""
+
 msgid "Powered by <b>SecureDrop {version}</b>."
 msgstr "Mogelijk gemaakt door <b>SecureDrop {version}</b>."
 
@@ -452,8 +457,18 @@ msgstr "Alle bronnen"
 msgid "All messages, files, and replies from sources are stored as encrypted files for security. To read them, you will need to decrypt them on your Secure Viewing Station."
 msgstr "Alle berichten, bestanden en antwoorden van bronnen worden opgeslagen als versleutelde bestanden om veiligheidsredenen. Om ze te lezen, moeten ze ontsleuteld worden op uw Secure Viewing Station."
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Files"
+msgstr "Geselecteerde downloaden"
+
 msgid "Download Selected"
 msgstr "Geselecteerde downloaden"
+
+#, fuzzy
+#| msgid "Delete Selected"
+msgid "Delete Selected Files"
+msgstr "Geselecteerde verwijderen"
 
 msgid "Delete Selected"
 msgstr "Geselecteerde verwijderen"
@@ -511,6 +526,19 @@ msgstr "Verwijder bronaccount"
 
 msgid "Are you sure?"
 msgstr "Bent u zeker?"
+
+msgid ""
+"<p>\n"
+"Deleting the account for <b>{source}</b> will:\n"
+"</p>\n"
+"<ul>\n"
+"<li>prevent them from logging in with their codename again\n"
+"<li>prevent your organization from sending replies\n"
+"</ul>\n"
+"<p>\n"
+"All files, messages, and replies will also be deleted when their account is deleted.\n"
+"</p>"
+msgstr ""
 
 msgid "Yes, Delete Source Account"
 msgstr "Ja, verwijder bronaccount"
@@ -659,14 +687,30 @@ msgstr "HERSTEL INSTELLINGEN VOOR BEVEILIGINGSSLEUTEL"
 msgid "Reset Security Key Credentials"
 msgstr "Herstel beveiligingssleutel authentificatie"
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Unread Submissions"
+msgstr "Geselecteerde downloaden"
+
 msgid "Download Unread"
 msgstr "Ongelezen downloaden"
+
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Submissions"
+msgstr "Geselecteerde downloaden"
 
 msgid "Download"
 msgstr "Downloaden"
 
+msgid "Star Selected Submissions"
+msgstr ""
+
 msgid "Star"
 msgstr "Markeren"
+
+msgid "Un-star Selected Submissions"
+msgstr ""
 
 msgid "Un-star"
 msgstr "De-markeren"
@@ -719,8 +763,10 @@ msgstr "Wachtwoord"
 msgid "Show password"
 msgstr "Toon wachtwoord"
 
-msgid "Log In"
-msgstr "Inloggen"
+#, fuzzy
+#| msgid "Login to access the journalist interface"
+msgid "Log In to Journalist Interface"
+msgstr "Inloggen om de interface voor journalisten te openen"
 
 msgid "LOG IN"
 msgstr "INLOGGEN"
@@ -749,7 +795,6 @@ msgstr "Uw verbinding is op dit moment niet anoniem!"
 msgid "You were redirected because you are already logged in. If you want to create a new account, you should log out first."
 msgstr "U bent omgeleid omdat u al ingelogd bent. Indien u een nieuw account wilt aanmaken, moet u eerst uitloggen."
 
-#| msgid "You are already logged in. Please verify your codename above as it may differ from the one displayed on the previous page."
 msgid "You are already logged in. Please verify your codename as it may differ from the one displayed on the previous page."
 msgstr "U bent al ingelogd. Verifieer uw codenaam hierboven want die zou kunnen afwijken van de codenaam op de vorige pagina."
 
@@ -846,8 +891,10 @@ msgstr "<strong>Hou het geheim.</strong> Deel het met niemand."
 msgid "<strong>Keep it safe.</strong> There is no account recovery option."
 msgstr "<strong>Hou het veilig.</strong> Er is geen optie om het account te herstellen."
 
-msgid "Continue"
-msgstr "Ga verder"
+#, fuzzy
+#| msgid "Back to submission page"
+msgid "Continue to Submissions Page"
+msgstr "Terug naar inzendingenpagina"
 
 msgid "Your Tor Browser's <a id=\"disable-js\" href=\"\"><b>Security Level</b></a> is too low. Use the <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\"> button in your browser’s toolbar to change it."
 msgstr "De <a id=\"disable-js\" href=\"\"><b>veiligheidsinstellingen</b></a> van uw Tor-browser zijn niet strikt genoeg. Gebruik de <img src=\"{icon}\" alt=\"&quot;beveiligingsniveau&quot;\">-knop in de werkbalk van uw browser om dit te wijzigen."
@@ -870,7 +917,9 @@ msgstr "<a href=\"/\" aria-label=\"Volg deze instructies en ververs dan deze pag
 msgid "<strong>It is recommended to use Tor Browser to access SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>Het wordt aangeraden om de Tor Browser te gebruiken om SecureDrop te bezoeken:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Lees hier informatie om deze te installeren</a> of negeer deze waarschuwing om door te gaan."
 
-msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+#, fuzzy
+#| msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" aria-label=\"Learn how to install Tor Browser\" href=\"{tor_browser_url}\" >Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>Het wordt aangeraden om de desktop-versie van de Tor Browser te gebruiken om SecureDrop te bezoeken, want Orfox biedt niet hetzelfde veiligheids- en anonimiteitsniveau als de desktop-versie.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Leer hier hoe deze te installeren is</a> of negeer deze waarschuwing om door te gaan."
 
 msgid "{} logo"
@@ -882,8 +931,8 @@ msgstr "Eerste inzending"
 msgid "First time submitting to our SecureDrop? Start here."
 msgstr "Eerste keer dat u iets naar onze SecureDrop inzendt? Begin hier."
 
-msgid "Get Started"
-msgstr "Aan de slag gaan"
+msgid "Get Started With Your First Submission"
+msgstr ""
 
 msgid "GET STARTED"
 msgstr "BEGIN"
@@ -894,11 +943,17 @@ msgstr "Vervolgbezoek"
 msgid "Already have a codename? Check for replies or submit something new."
 msgstr "Hebt u al een codenaam? Controleer of er antwoorden zijn of stuur iets nieuws in."
 
+msgid "Log In Again Using A Previous Codename"
+msgstr ""
+
 msgid "Enter Codename"
 msgstr "Codenaam invoeren"
 
 msgid "Enter your codename"
 msgstr "Voer uw codenaam in"
+
+msgid "Cancel and Return to Previous Page"
+msgstr ""
 
 msgid "CANCEL"
 msgstr "ANNULEREN"
@@ -936,8 +991,11 @@ msgstr "Als u enkel een bericht stuurt, moet het ten minste {} tekens lang zijn.
 msgid "Anti-spam check. Do not fill this in!"
 msgstr "Anti-spam controle. Vul dit niet in!"
 
-msgid "Submit"
-msgstr "Versturen"
+msgid "Cancel and Clear Uploaded Content"
+msgstr ""
+
+msgid "Submit Uploaded Content to the SecureDrop"
+msgstr ""
 
 msgid "Read Replies"
 msgstr "Reacties lezen"
@@ -950,6 +1008,11 @@ msgstr "Deze reactie verwijderen"
 
 msgid "Delete reply from {timestamp}?"
 msgstr "Antwoord van {timestamp} verwijderen?"
+
+#, fuzzy
+#| msgid "Delete this reply"
+msgid "Delete Reply"
+msgstr "Deze reactie verwijderen"
 
 msgid "Delete All Replies"
 msgstr "Alle reactie verwijderen?"
@@ -1011,6 +1074,9 @@ msgstr "Vergeet niet, uw codenaam is:"
 msgid "Codename"
 msgstr "Codenaam"
 
+msgid "Make Codename Visible on the Display"
+msgstr ""
+
 msgid "Show Codename"
 msgstr "Toon codenaam"
 
@@ -1053,6 +1119,18 @@ msgstr "<strong>Belangrijk:</strong> Als u anoniem wilt blijven, gebruik dan <st
 
 msgid "Back to submission page"
 msgstr "Terug naar inzendingenpagina"
+
+#~ msgid "Log In"
+#~ msgstr "Inloggen"
+
+#~ msgid "Continue"
+#~ msgstr "Ga verder"
+
+#~ msgid "Get Started"
+#~ msgstr "Aan de slag gaan"
+
+#~ msgid "Submit"
+#~ msgstr "Versturen"
 
 #~ msgid "Forgot your codename?"
 #~ msgstr "Uw codenaam vergeten?"

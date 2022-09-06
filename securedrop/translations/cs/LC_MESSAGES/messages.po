@@ -386,7 +386,9 @@ msgstr "SMAZAT"
 msgid "No users to display"
 msgstr "Žádní uživatelé k zobrazení"
 
-msgid "Update instance config"
+#, fuzzy
+#| msgid "Update instance config"
+msgid "Update instance configuration"
 msgstr "Aktualizovat konfiguraci instance"
 
 msgid "INSTANCE CONFIG"
@@ -449,6 +451,9 @@ msgstr "Administrátor"
 msgid "Log Out"
 msgstr "Odhlásit se"
 
+msgid "Return to Main View"
+msgstr ""
+
 msgid "Powered by <b>SecureDrop {version}</b>."
 msgstr "Používá systém <b>SecureDrop {version}</b>."
 
@@ -461,8 +466,18 @@ msgstr "Všechny zdroje"
 msgid "All messages, files, and replies from sources are stored as encrypted files for security. To read them, you will need to decrypt them on your Secure Viewing Station."
 msgstr "Všechny zprávy, soubory a odpovědi od zdrojů jsou kvůli zabezpečení ukládány jako šifrované soubory. Pro přečtení je musíte dešifrovat na vašem bezpečném počítači (Secure Viewing Station)."
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Files"
+msgstr "Stáhnout vybrané"
+
 msgid "Download Selected"
 msgstr "Stáhnout vybrané"
+
+#, fuzzy
+#| msgid "Delete Selected"
+msgid "Delete Selected Files"
+msgstr "Smazat vybrané"
 
 msgid "Delete Selected"
 msgstr "Smazat vybrané"
@@ -520,6 +535,19 @@ msgstr "Smazat účet zdroje"
 
 msgid "Are you sure?"
 msgstr "Jste si jisti?"
+
+msgid ""
+"<p>\n"
+"Deleting the account for <b>{source}</b> will:\n"
+"</p>\n"
+"<ul>\n"
+"<li>prevent them from logging in with their codename again\n"
+"<li>prevent your organization from sending replies\n"
+"</ul>\n"
+"<p>\n"
+"All files, messages, and replies will also be deleted when their account is deleted.\n"
+"</p>"
+msgstr ""
 
 msgid "Yes, Delete Source Account"
 msgstr "Ano, smazat účet zdroje"
@@ -668,14 +696,30 @@ msgstr "RESETOVAT PŘIHLAŠOVACÍ ÚDAJE BEZPEČNOSTNÍHO KLÍČE"
 msgid "Reset Security Key Credentials"
 msgstr "Resetovat přihlašovací údaje bezpečnostního klíče"
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Unread Submissions"
+msgstr "Stáhnout vybrané"
+
 msgid "Download Unread"
 msgstr "Stáhnout nepřečtené"
+
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Submissions"
+msgstr "Stáhnout vybrané"
 
 msgid "Download"
 msgstr "Stáhnout"
 
+msgid "Star Selected Submissions"
+msgstr ""
+
 msgid "Star"
 msgstr "Označit"
+
+msgid "Un-star Selected Submissions"
+msgstr ""
 
 msgid "Un-star"
 msgstr "Odznačit"
@@ -728,8 +772,10 @@ msgstr "Heslo"
 msgid "Show password"
 msgstr "Zobrazit heslo"
 
-msgid "Log In"
-msgstr "Přihlásit se"
+#, fuzzy
+#| msgid "Login to access the journalist interface"
+msgid "Log In to Journalist Interface"
+msgstr "Přihlaste se do rozhraní pro novináře"
 
 msgid "LOG IN"
 msgstr "PŘIHLÁSIT SE"
@@ -854,8 +900,10 @@ msgstr "<strong>Udržujte v tajnosti.</strong> S nikým nesdílejte."
 msgid "<strong>Keep it safe.</strong> There is no account recovery option."
 msgstr "<strong>Udržujte v bezpečí.</strong> Obnovení účtu není možné."
 
-msgid "Continue"
-msgstr "Pokračovat"
+#, fuzzy
+#| msgid "Back to submission page"
+msgid "Continue to Submissions Page"
+msgstr "Zpátky na stránku podání"
 
 msgid "Your Tor Browser's <a id=\"disable-js\" href=\"\"><b>Security Level</b></a> is too low. Use the <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\"> button in your browser’s toolbar to change it."
 msgstr "<a id=\"disable-js\" href=\"\"><b>Úroveň zabezpečení</b></a> vašeho prohlížeče Tor je příliš nízká. Pro jeho změnu použijte tlačítko&nbsp;<img src=\"{icon}\" alt=\"&quot;Úroveň zabezpečení&quot;\"> na liště prohlížeče."
@@ -878,7 +926,9 @@ msgstr "<a href=\"/\" aria-label=\"Postupujte podle instrukcí, obnovte tuto str
 msgid "<strong>It is recommended to use Tor Browser to access SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>SecureDrop doporučujeme používat v prohlížeči Tor:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Zjistěte, jak Tor nainstalovat</a> nebo ignorujte tuto zprávu a pokračujte."
 
-msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+#, fuzzy
+#| msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" aria-label=\"Learn how to install Tor Browser\" href=\"{tor_browser_url}\" >Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>SecureDrop doporučujeme používat ve verzi prohlížeče Tor pro počítač, protože Orfox neposkytuje stejnou úroveň bezpečnosti a anonymity jako verze pro počítač.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Zjistěte, jak ji nainstalovat</a>."
 
 msgid "{} logo"
@@ -890,8 +940,8 @@ msgstr "První podání"
 msgid "First time submitting to our SecureDrop? Start here."
 msgstr "Podáváte na náš SecureDrop prvně? Začněte zde."
 
-msgid "Get Started"
-msgstr "Začněte"
+msgid "Get Started With Your First Submission"
+msgstr ""
 
 msgid "GET STARTED"
 msgstr "ZAČÍT"
@@ -902,11 +952,17 @@ msgstr "Vracím se"
 msgid "Already have a codename? Check for replies or submit something new."
 msgstr "Už máte krycí jméno? Zkontrolujte odpovědi anebo pošlete něco nového."
 
+msgid "Log In Again Using A Previous Codename"
+msgstr ""
+
 msgid "Enter Codename"
 msgstr "Zadat krycí jméno"
 
 msgid "Enter your codename"
 msgstr "Zadejte své krycí jméno"
+
+msgid "Cancel and Return to Previous Page"
+msgstr ""
 
 msgid "CANCEL"
 msgstr "ZRUŠIT"
@@ -944,8 +1000,11 @@ msgstr "Vaše odchozí zpráva musí mít délku alespoň {} znaků."
 msgid "Anti-spam check. Do not fill this in!"
 msgstr "Ochrana proti SPAMu. Nevyplňujte!"
 
-msgid "Submit"
-msgstr "Odeslat"
+msgid "Cancel and Clear Uploaded Content"
+msgstr ""
+
+msgid "Submit Uploaded Content to the SecureDrop"
+msgstr ""
 
 msgid "Read Replies"
 msgstr "Přečtěte si odpovědi"
@@ -958,6 +1017,11 @@ msgstr "Smazat tuto odpověď"
 
 msgid "Delete reply from {timestamp}?"
 msgstr "Smazat odpověď z {timestamp}?"
+
+#, fuzzy
+#| msgid "Delete this reply"
+msgid "Delete Reply"
+msgstr "Smazat tuto odpověď"
 
 msgid "Delete All Replies"
 msgstr "Smazat všechny odpovědi"
@@ -1019,6 +1083,9 @@ msgstr "Pamatujte, vaše krycí jméno je:"
 msgid "Codename"
 msgstr "Krycí jméno"
 
+msgid "Make Codename Visible on the Display"
+msgstr ""
+
 msgid "Show Codename"
 msgstr "Zobrazit Krycí jméno"
 
@@ -1061,6 +1128,18 @@ msgstr "<strong>Důležité:</strong> Chcete-li zůstat v anonymitě, <strong>ne
 
 msgid "Back to submission page"
 msgstr "Zpátky na stránku podání"
+
+#~ msgid "Log In"
+#~ msgstr "Přihlásit se"
+
+#~ msgid "Continue"
+#~ msgstr "Pokračovat"
+
+#~ msgid "Get Started"
+#~ msgstr "Začněte"
+
+#~ msgid "Submit"
+#~ msgstr "Odeslat"
 
 #~ msgid "Forgot your codename?"
 #~ msgstr "Zapomněli jste své krycí jméno?"

@@ -376,7 +376,9 @@ msgstr "ΔΙΑΓΡΑΦΗ"
 msgid "No users to display"
 msgstr "Δεν υπάρχουν χρήστες για να προβληθούν"
 
-msgid "Update instance config"
+#, fuzzy
+#| msgid "Update instance config"
+msgid "Update instance configuration"
 msgstr "Ενημέρωση παραμετροποίησης εγκατάστασης"
 
 msgid "INSTANCE CONFIG"
@@ -439,6 +441,9 @@ msgstr "Διαχείριση"
 msgid "Log Out"
 msgstr "Αποσύνδεση"
 
+msgid "Return to Main View"
+msgstr ""
+
 msgid "Powered by <b>SecureDrop {version}</b>."
 msgstr "Με την υποστήριξη του <b>SecureDrop {version}</b>."
 
@@ -451,8 +456,18 @@ msgstr "Όλες οι πηγές"
 msgid "All messages, files, and replies from sources are stored as encrypted files for security. To read them, you will need to decrypt them on your Secure Viewing Station."
 msgstr "Όλα τα μηνύματα, αρχεία και απαντήσεις αποθηκεύονται ως κρυπτογραφημένα αρχεία για ασφάλεια. Για να τα διαβάσετε, θα πρέπει να τα αποκρυπτογραφήσετε στον Σταθμό Ασφαλούς Προβολής."
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Files"
+msgstr "Λήψη επιλεγμένων"
+
 msgid "Download Selected"
 msgstr "Λήψη επιλεγμένων"
+
+#, fuzzy
+#| msgid "Delete Selected"
+msgid "Delete Selected Files"
+msgstr "Διαγραφή επιλεγμένων"
 
 msgid "Delete Selected"
 msgstr "Διαγραφή επιλεγμένων"
@@ -510,6 +525,19 @@ msgstr "Διαγραφή λογαριασμού πηγής"
 
 msgid "Are you sure?"
 msgstr "Είστε σίγουρος/η;"
+
+msgid ""
+"<p>\n"
+"Deleting the account for <b>{source}</b> will:\n"
+"</p>\n"
+"<ul>\n"
+"<li>prevent them from logging in with their codename again\n"
+"<li>prevent your organization from sending replies\n"
+"</ul>\n"
+"<p>\n"
+"All files, messages, and replies will also be deleted when their account is deleted.\n"
+"</p>"
+msgstr ""
 
 msgid "Yes, Delete Source Account"
 msgstr "Ναι, Διαγραφή λογαριασμού πηγής"
@@ -658,14 +686,30 @@ msgstr "ΕΠΑΝΑΦΟΡΑ ΣΤΟΙΧΕΙΩΝ ΠΙΣΤΟΠΟΙΗΣΗΣ ΚΛΕΙ�
 msgid "Reset Security Key Credentials"
 msgstr "Επαναφορά διαπιστευτηρίων κλειδιού ασφαλείας"
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Unread Submissions"
+msgstr "Λήψη επιλεγμένων"
+
 msgid "Download Unread"
 msgstr "Κατέβασμα μη αναγνωσμένων"
+
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Submissions"
+msgstr "Λήψη επιλεγμένων"
 
 msgid "Download"
 msgstr "Λήψη"
 
+msgid "Star Selected Submissions"
+msgstr ""
+
 msgid "Star"
 msgstr "Αστέρι"
+
+msgid "Un-star Selected Submissions"
+msgstr ""
 
 msgid "Un-star"
 msgstr "Απο-επισήμανση"
@@ -718,8 +762,10 @@ msgstr "Κωδικός πρόσβασης"
 msgid "Show password"
 msgstr "Προβολή κωδικού"
 
-msgid "Log In"
-msgstr "Σύνδεση"
+#, fuzzy
+#| msgid "Login to access the journalist interface"
+msgid "Log In to Journalist Interface"
+msgstr "Συνδεθείτε για πρόσβαση στη διεπαφή δημοσιογράφου"
 
 msgid "LOG IN"
 msgstr "ΣΥΝΔΕΣΗ"
@@ -844,8 +890,10 @@ msgstr "<strong>Κρατήστε το μυστικό.</strong> Μην το μο�
 msgid "<strong>Keep it safe.</strong> There is no account recovery option."
 msgstr "<strong>Κρατήστε το ασφαλές.</strong> Δεν υπάρχει δυνατότητα ανάκτησης λογαριασμού."
 
-msgid "Continue"
-msgstr "Συνέχεια"
+#, fuzzy
+#| msgid "Back to submission page"
+msgid "Continue to Submissions Page"
+msgstr "Πίσω στη σελίδα υποβολών"
 
 msgid "Your Tor Browser's <a id=\"disable-js\" href=\"\"><b>Security Level</b></a> is too low. Use the <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\"> button in your browser’s toolbar to change it."
 msgstr "Το <a id=\"disable-js\" href=\"\"><b>Επίπεδο ασφαλείας</b></a> του Tor Browser σας είναι πολύ χαμηλό. Χρησιμοποιήστε το κουμπί <img src=\"{icon}\" alt=\"&quot;Επίπεδο ασφαλείας&quot;\"> στη γραμμή εργαλειών για να το αλλάξετε."
@@ -868,7 +916,9 @@ msgstr "<a href=\"/\" aria-label=\"Ακολουθήστε αυτές τις οδ
 msgid "<strong>It is recommended to use Tor Browser to access SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>Προτείνεται να χρησιμοποιείτε τον Tor Browser για να επισκέπτεστε το SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Μάθετε πως να τον εγκαταστήσετε</a>, ή αγνοήστε αυτή την προειδοποίηση για να συνεχίσετε."
 
-msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+#, fuzzy
+#| msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" aria-label=\"Learn how to install Tor Browser\" href=\"{tor_browser_url}\" >Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>Προτείνεται να χρησιμοποιήσετε την έκδοση για υπολογιστή του Tor browser για να επισκεφτείτε το SecureDrop, καθώς ο Orfox δεν παρέχει το ίδιο επίπεδο ασφάλειας και ανωνυμίας με την έκδοση για υπολογιστή.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Μάθετε πώς να τον εγκαταστήσετε</a>, ή αγνοήστε αυτή την προειδοποίηση για να συνεχίσετε."
 
 msgid "{} logo"
@@ -880,8 +930,8 @@ msgstr "Πρώτη υποβολή"
 msgid "First time submitting to our SecureDrop? Start here."
 msgstr "Υποβάλετε κάτι στο SecureDrop μας για πρώτη φορά; Ξεκινήστε από εδώ."
 
-msgid "Get Started"
-msgstr "Ας ξεκινήσουμε"
+msgid "Get Started With Your First Submission"
+msgstr ""
 
 msgid "GET STARTED"
 msgstr "ΞΕΚΙΝΗΣΤΕ"
@@ -892,11 +942,17 @@ msgstr "Επιστροφή"
 msgid "Already have a codename? Check for replies or submit something new."
 msgstr "Έχετε ήδη κωδικό όνομα; Ελέγξτε για απαντήσεις ή υποβάλετε κάτι καινούριο."
 
+msgid "Log In Again Using A Previous Codename"
+msgstr ""
+
 msgid "Enter Codename"
 msgstr "Εισαγωγή κωδικού ονόματος"
 
 msgid "Enter your codename"
 msgstr "Γράψτε το κωδικό όνομά σας"
+
+msgid "Cancel and Return to Previous Page"
+msgstr ""
 
 msgid "CANCEL"
 msgstr "ΆΚΥΡΟ"
@@ -934,8 +990,11 @@ msgstr "Αν στέλνετε μόνο ένα μήνυμα, αυτό πρέπε�
 msgid "Anti-spam check. Do not fill this in!"
 msgstr "Έλεγχος anti-spam. Μην το συμπληρώσετε!"
 
-msgid "Submit"
-msgstr "Υποβολή"
+msgid "Cancel and Clear Uploaded Content"
+msgstr ""
+
+msgid "Submit Uploaded Content to the SecureDrop"
+msgstr ""
 
 msgid "Read Replies"
 msgstr "Ανάγνωση απαντήσεων"
@@ -948,6 +1007,11 @@ msgstr "Διαγραφή αυτής της απάντησης"
 
 msgid "Delete reply from {timestamp}?"
 msgstr "Διαγραφή απάντησης από {timestamp};"
+
+#, fuzzy
+#| msgid "Delete this reply"
+msgid "Delete Reply"
+msgstr "Διαγραφή αυτής της απάντησης"
 
 msgid "Delete All Replies"
 msgstr "Διαγραφή όλων των απαντήσεων"
@@ -1009,6 +1073,9 @@ msgstr "Θυμήσου, το κωδικό όνομά σου είναι:"
 msgid "Codename"
 msgstr "Κωδικό όνομα"
 
+msgid "Make Codename Visible on the Display"
+msgstr ""
+
 msgid "Show Codename"
 msgstr "Εμφάνιση κωδικού ονόματος"
 
@@ -1051,6 +1118,18 @@ msgstr "<strong>Σημαντικό:</strong> Αν επιθυμείτε να δι
 
 msgid "Back to submission page"
 msgstr "Πίσω στη σελίδα υποβολών"
+
+#~ msgid "Log In"
+#~ msgstr "Σύνδεση"
+
+#~ msgid "Continue"
+#~ msgstr "Συνέχεια"
+
+#~ msgid "Get Started"
+#~ msgstr "Ας ξεκινήσουμε"
+
+#~ msgid "Submit"
+#~ msgstr "Υποβολή"
 
 #~ msgid "Forgot your codename?"
 #~ msgstr "Ξεχάσατε το κωδικό όνομά σας;"

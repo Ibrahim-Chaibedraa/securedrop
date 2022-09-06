@@ -367,7 +367,9 @@ msgstr "删除"
 msgid "No users to display"
 msgstr "沒有使用者可顯示"
 
-msgid "Update instance config"
+#, fuzzy
+#| msgid "Update instance config"
+msgid "Update instance configuration"
 msgstr "更新設定"
 
 msgid "INSTANCE CONFIG"
@@ -430,6 +432,9 @@ msgstr "管理員"
 msgid "Log Out"
 msgstr "登出"
 
+msgid "Return to Main View"
+msgstr ""
+
 msgid "Powered by <b>SecureDrop {version}</b>."
 msgstr "<b> SecureDrop {version}</b> 搭建。"
 
@@ -442,8 +447,18 @@ msgstr "所有線人消息來源"
 msgid "All messages, files, and replies from sources are stored as encrypted files for security. To read them, you will need to decrypt them on your Secure Viewing Station."
 msgstr "為安全起見，所有來自線人的訊息、檔案與回覆都經加密儲存。須透過檢視安全平台解密方可查閱。"
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Files"
+msgstr "下載所選的部份"
+
 msgid "Download Selected"
 msgstr "下載所選的部份"
+
+#, fuzzy
+#| msgid "Delete Selected"
+msgid "Delete Selected Files"
+msgstr "删除所選部份"
 
 msgid "Delete Selected"
 msgstr "删除所選部份"
@@ -501,6 +516,19 @@ msgstr "刪除線人帳號"
 
 msgid "Are you sure?"
 msgstr "確定嗎？"
+
+msgid ""
+"<p>\n"
+"Deleting the account for <b>{source}</b> will:\n"
+"</p>\n"
+"<ul>\n"
+"<li>prevent them from logging in with their codename again\n"
+"<li>prevent your organization from sending replies\n"
+"</ul>\n"
+"<p>\n"
+"All files, messages, and replies will also be deleted when their account is deleted.\n"
+"</p>"
+msgstr ""
 
 msgid "Yes, Delete Source Account"
 msgstr "是的，請刪除線人帳號"
@@ -649,14 +677,30 @@ msgstr "重置安全密鑰憑證"
 msgid "Reset Security Key Credentials"
 msgstr "重新設定安全密鑰驗證"
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Unread Submissions"
+msgstr "下載所選的部份"
+
 msgid "Download Unread"
 msgstr "下載未讀文件"
+
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Submissions"
+msgstr "下載所選的部份"
 
 msgid "Download"
 msgstr "下載"
 
+msgid "Star Selected Submissions"
+msgstr ""
+
 msgid "Star"
 msgstr "標星"
+
+msgid "Un-star Selected Submissions"
+msgstr ""
 
 msgid "Un-star"
 msgstr "未標星"
@@ -709,8 +753,10 @@ msgstr "密碼"
 msgid "Show password"
 msgstr "密碼"
 
-msgid "Log In"
-msgstr "登入"
+#, fuzzy
+#| msgid "Login to access the journalist interface"
+msgid "Log In to Journalist Interface"
+msgstr "登入記者使用介面"
 
 msgid "LOG IN"
 msgstr "登錄"
@@ -835,8 +881,10 @@ msgstr "<strong>妥善地保管它</strong> 不要與別人共用。"
 msgid "<strong>Keep it safe.</strong> There is no account recovery option."
 msgstr "<strong>妥善保存</strong> 它沒辦法重新取得。"
 
-msgid "Continue"
-msgstr "繼續"
+#, fuzzy
+#| msgid "Back to submission page"
+msgid "Continue to Submissions Page"
+msgstr "返回提交文件頁面"
 
 msgid "Your Tor Browser's <a id=\"disable-js\" href=\"\"><b>Security Level</b></a> is too low. Use the <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\"> button in your browser’s toolbar to change it."
 msgstr "Tor 瀏覽器的 <a id=\"disable-js\" href=\"\"><b>安全性</b></a>等級過低。請使用瀏覽器工具列中的 <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\">按鈕來變更它。"
@@ -859,7 +907,9 @@ msgstr "<a href=\"/\" aria-label=\"Follow these instructions, then refresh this 
 msgid "<strong>It is recommended to use Tor Browser to access SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>高度建議用 Tor 瀏覽器來訪問 SecureDrop :</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\"> 學習如何安裝 Tor</a>，或忽略這則警告繼續操作。"
 
-msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+#, fuzzy
+#| msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" aria-label=\"Learn how to install Tor Browser\" href=\"{tor_browser_url}\" >Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>高度建議使用桌面版本的 Tor 瀏覽器來訪問 SecureDrop， Orfox 的安全層級與匿名保護程度遠不如桌面版:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\"> 學習如何安裝 Tor</a>，或忽略這則警告繼續操作。"
 
 msgid "{} logo"
@@ -871,8 +921,8 @@ msgstr "首次提交"
 msgid "First time submitting to our SecureDrop? Start here."
 msgstr "首次提交資訊給 SecureDrop，請從這裡開始。"
 
-msgid "Get Started"
-msgstr "開始"
+msgid "Get Started With Your First Submission"
+msgstr ""
 
 msgid "GET STARTED"
 msgstr "開始動手"
@@ -883,11 +933,17 @@ msgstr "返回文件提交訪問頁"
 msgid "Already have a codename? Check for replies or submit something new."
 msgstr "已有代號名稱？檢查回應或是提交新資料。"
 
+msgid "Log In Again Using A Previous Codename"
+msgstr ""
+
 msgid "Enter Codename"
 msgstr "輸入代號"
 
 msgid "Enter your codename"
 msgstr "請輸入您的代號"
+
+msgid "Cancel and Return to Previous Page"
+msgstr ""
 
 msgid "CANCEL"
 msgstr "取消"
@@ -925,8 +981,11 @@ msgstr "如果您想發送訊息，必須至少輸入 {} 個字元。"
 msgid "Anti-spam check. Do not fill this in!"
 msgstr "反垃圾檢查，請勿填入!"
 
-msgid "Submit"
-msgstr "提交"
+msgid "Cancel and Clear Uploaded Content"
+msgstr ""
+
+msgid "Submit Uploaded Content to the SecureDrop"
+msgstr ""
 
 msgid "Read Replies"
 msgstr "閱讀回覆"
@@ -939,6 +998,11 @@ msgstr "刪除這條回覆"
 
 msgid "Delete reply from {timestamp}?"
 msgstr "刪除 {timestamp} 的回覆?"
+
+#, fuzzy
+#| msgid "Delete this reply"
+msgid "Delete Reply"
+msgstr "刪除這條回覆"
 
 msgid "Delete All Replies"
 msgstr "刪除全部回覆"
@@ -1000,6 +1064,9 @@ msgstr "記住，您的代號是："
 msgid "Codename"
 msgstr "代號名稱"
 
+msgid "Make Codename Visible on the Display"
+msgstr ""
+
 msgid "Show Codename"
 msgstr "顯示代號"
 
@@ -1042,6 +1109,18 @@ msgstr "<strong>重要：</strong>如果您希望保持匿名，<strong>請勿</
 
 msgid "Back to submission page"
 msgstr "返回提交文件頁面"
+
+#~ msgid "Log In"
+#~ msgstr "登入"
+
+#~ msgid "Continue"
+#~ msgstr "繼續"
+
+#~ msgid "Get Started"
+#~ msgstr "開始"
+
+#~ msgid "Submit"
+#~ msgstr "提交"
 
 #~ msgid "Forgot your codename?"
 #~ msgstr "忘記你的代號？"

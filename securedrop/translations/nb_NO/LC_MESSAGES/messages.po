@@ -377,7 +377,9 @@ msgstr "SLETT"
 msgid "No users to display"
 msgstr "Ingen brukere å vise"
 
-msgid "Update instance config"
+#, fuzzy
+#| msgid "Update instance config"
+msgid "Update instance configuration"
 msgstr "Oppdater konfigurasjonen for instansen"
 
 msgid "INSTANCE CONFIG"
@@ -440,6 +442,9 @@ msgstr "Administrator"
 msgid "Log Out"
 msgstr "Logg ut"
 
+msgid "Return to Main View"
+msgstr ""
+
 msgid "Powered by <b>SecureDrop {version}</b>."
 msgstr "Drevet av: <b>SecureDrop {version}</b>."
 
@@ -452,8 +457,18 @@ msgstr "Alle kilder"
 msgid "All messages, files, and replies from sources are stored as encrypted files for security. To read them, you will need to decrypt them on your Secure Viewing Station."
 msgstr "Alle meldinger, filer og svar fra kilder er lagret som krypterte filer av hensyn til sikkerhet. For å lese dem, må du dekryptere dem på Secure Viewing Station."
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Files"
+msgstr "Last ned valgte"
+
 msgid "Download Selected"
 msgstr "Last ned valgte"
+
+#, fuzzy
+#| msgid "Delete Selected"
+msgid "Delete Selected Files"
+msgstr "Slett valgte"
 
 msgid "Delete Selected"
 msgstr "Slett valgte"
@@ -511,6 +526,19 @@ msgstr "Slett kilde-konto"
 
 msgid "Are you sure?"
 msgstr "Er du sikker?"
+
+msgid ""
+"<p>\n"
+"Deleting the account for <b>{source}</b> will:\n"
+"</p>\n"
+"<ul>\n"
+"<li>prevent them from logging in with their codename again\n"
+"<li>prevent your organization from sending replies\n"
+"</ul>\n"
+"<p>\n"
+"All files, messages, and replies will also be deleted when their account is deleted.\n"
+"</p>"
+msgstr ""
 
 msgid "Yes, Delete Source Account"
 msgstr "Ja, slett kildens konto"
@@ -659,14 +687,30 @@ msgstr "Tilbakestill identitetsdetaljer fra sikkerhetsnøkkel"
 msgid "Reset Security Key Credentials"
 msgstr "Tilbakestill innloggingsdetaljer for sikkerhetsnøkkel"
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Unread Submissions"
+msgstr "Last ned valgte"
+
 msgid "Download Unread"
 msgstr "Last ned uleste"
+
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Submissions"
+msgstr "Last ned valgte"
 
 msgid "Download"
 msgstr "Last ned"
 
+msgid "Star Selected Submissions"
+msgstr ""
+
 msgid "Star"
 msgstr "Stjernemerk"
+
+msgid "Un-star Selected Submissions"
+msgstr ""
 
 msgid "Un-star"
 msgstr "Fjern stjernemerking"
@@ -719,8 +763,10 @@ msgstr "Passord"
 msgid "Show password"
 msgstr "Vis passord"
 
-msgid "Log In"
-msgstr "Logg inn"
+#, fuzzy
+#| msgid "Login to access the journalist interface"
+msgid "Log In to Journalist Interface"
+msgstr "Logg inn for å få tilgang til journalist-portalen"
 
 msgid "LOG IN"
 msgstr "LOGG INN"
@@ -845,8 +891,10 @@ msgstr "<strong>Hold det hemmelig.</strong> Ikke del det med noen."
 msgid "<strong>Keep it safe.</strong> There is no account recovery option."
 msgstr "<strong>Ta godt vare på det.</strong> Det er ingen mulighet for å gjenopprette tilgangen."
 
-msgid "Continue"
-msgstr "Fortsett"
+#, fuzzy
+#| msgid "Back to submission page"
+msgid "Continue to Submissions Page"
+msgstr "Tilbake til innsendelsesside"
 
 msgid "Your Tor Browser's <a id=\"disable-js\" href=\"\"><b>Security Level</b></a> is too low. Use the <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\"> button in your browser’s toolbar to change it."
 msgstr "<a id=\"disable-js\" href=\"\"><b>Sikkerhetsinnstillingene</b></a> i din Tor-nettleser er satt for lavt. Bruk <img src=\"{icon}\" alt=\"&quot;Sikkerhetsnivå&quot;\"\">knappen i nettleserens verktøylinje for å endre nivået."
@@ -869,7 +917,9 @@ msgstr "<a href=\"/\" aria-label=\"Følg disse instruksjonene, deretter oppdater
 msgid "<strong>It is recommended to use Tor Browser to access SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>Det anbefales å bruke Tor-nettleseren for å nå SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Lær hvordan du installerer den</a>, eller se bort fra denne advarselen for å fortsette uten."
 
-msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+#, fuzzy
+#| msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" aria-label=\"Learn how to install Tor Browser\" href=\"{tor_browser_url}\" >Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>Det anbefales å bruke Tor-nettleseren på en datamaskin for å nå SecureDrop, fordi Orfox ikke gir det samme nivået av sikkerhet og anonymitet:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Lær hvordan du installerer den</a>, eller se bort fra denne advarselen for å fortsette uten."
 
 msgid "{} logo"
@@ -881,8 +931,8 @@ msgstr "Første innsendelse"
 msgid "First time submitting to our SecureDrop? Start here."
 msgstr "Hvis dette er første gang du sender informasjon til vår SecureDrop? Start her."
 
-msgid "Get Started"
-msgstr "Kom i gang"
+msgid "Get Started With Your First Submission"
+msgstr ""
 
 msgid "GET STARTED"
 msgstr "Kom i gang"
@@ -893,11 +943,17 @@ msgstr "Sendt inn før"
 msgid "Already have a codename? Check for replies or submit something new."
 msgstr "Har du allerede et kodenavn? Sjekk om du har fått svar, eller send inn ny informasjon."
 
+msgid "Log In Again Using A Previous Codename"
+msgstr ""
+
 msgid "Enter Codename"
 msgstr "Skriv inn kodenavn"
 
 msgid "Enter your codename"
 msgstr "Skriv inn ditt kodenavn"
+
+msgid "Cancel and Return to Previous Page"
+msgstr ""
 
 msgid "CANCEL"
 msgstr "AVBRYT"
@@ -935,8 +991,11 @@ msgstr "Om du bare sender en melding, må den være minst {} tegn lang."
 msgid "Anti-spam check. Do not fill this in!"
 msgstr "Anti-spam-sjekk. Ikke fyll inn her!"
 
-msgid "Submit"
-msgstr "Send inn"
+msgid "Cancel and Clear Uploaded Content"
+msgstr ""
+
+msgid "Submit Uploaded Content to the SecureDrop"
+msgstr ""
 
 msgid "Read Replies"
 msgstr "Les svar"
@@ -949,6 +1008,11 @@ msgstr "Slett dette svaret"
 
 msgid "Delete reply from {timestamp}?"
 msgstr "Slett svar fra {timestamp}?"
+
+#, fuzzy
+#| msgid "Delete this reply"
+msgid "Delete Reply"
+msgstr "Slett dette svaret"
 
 msgid "Delete All Replies"
 msgstr "Slett alle svar"
@@ -1010,6 +1074,9 @@ msgstr "Husk, kodenavnet ditt er:"
 msgid "Codename"
 msgstr "Kodenavn"
 
+msgid "Make Codename Visible on the Display"
+msgstr ""
+
 msgid "Show Codename"
 msgstr "Vis kodenavn"
 
@@ -1052,6 +1119,18 @@ msgstr "<strong>Viktig:</strong> Om du ønsker å være helt anonym, <strong>ikk
 
 msgid "Back to submission page"
 msgstr "Tilbake til innsendelsesside"
+
+#~ msgid "Log In"
+#~ msgstr "Logg inn"
+
+#~ msgid "Continue"
+#~ msgstr "Fortsett"
+
+#~ msgid "Get Started"
+#~ msgstr "Kom i gang"
+
+#~ msgid "Submit"
+#~ msgstr "Send inn"
 
 #~ msgid "Forgot your codename?"
 #~ msgstr "Glemt kodenavnet ditt?"

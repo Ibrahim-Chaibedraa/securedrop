@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: SecureDrop 2.4.0~rc1\n"
+"Project-Id-Version: SecureDrop 2.5.0~rc1\n"
 "Report-Msgid-Bugs-To: securedrop@freedom.press\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -374,7 +374,7 @@ msgstr ""
 msgid "No users to display"
 msgstr ""
 
-msgid "Update instance config"
+msgid "Update instance configuration"
 msgstr ""
 
 msgid "INSTANCE CONFIG"
@@ -437,6 +437,9 @@ msgstr ""
 msgid "Log Out"
 msgstr ""
 
+msgid "Return to Main View"
+msgstr ""
+
 msgid "Powered by <b>SecureDrop {version}</b>."
 msgstr ""
 
@@ -449,7 +452,13 @@ msgstr ""
 msgid "All messages, files, and replies from sources are stored as encrypted files for security. To read them, you will need to decrypt them on your Secure Viewing Station."
 msgstr ""
 
+msgid "Download Selected Files"
+msgstr ""
+
 msgid "Download Selected"
+msgstr ""
+
+msgid "Delete Selected Files"
 msgstr ""
 
 msgid "Delete Selected"
@@ -507,6 +516,19 @@ msgid "Delete Source Account"
 msgstr ""
 
 msgid "Are you sure?"
+msgstr ""
+
+msgid ""
+"<p>\n"
+"Deleting the account for <b>{source}</b> will:\n"
+"</p>\n"
+"<ul>\n"
+"<li>prevent them from logging in with their codename again\n"
+"<li>prevent your organization from sending replies\n"
+"</ul>\n"
+"<p>\n"
+"All files, messages, and replies will also be deleted when their account is deleted.\n"
+"</p>"
 msgstr ""
 
 msgid "Yes, Delete Source Account"
@@ -656,13 +678,25 @@ msgstr ""
 msgid "Reset Security Key Credentials"
 msgstr ""
 
+msgid "Download Selected Unread Submissions"
+msgstr ""
+
 msgid "Download Unread"
+msgstr ""
+
+msgid "Download Selected Submissions"
 msgstr ""
 
 msgid "Download"
 msgstr ""
 
+msgid "Star Selected Submissions"
+msgstr ""
+
 msgid "Star"
+msgstr ""
+
+msgid "Un-star Selected Submissions"
 msgstr ""
 
 msgid "Un-star"
@@ -716,7 +750,7 @@ msgstr ""
 msgid "Show password"
 msgstr ""
 
-msgid "Log In"
+msgid "Log In to Journalist Interface"
 msgstr ""
 
 msgid "LOG IN"
@@ -842,7 +876,7 @@ msgstr ""
 msgid "<strong>Keep it safe.</strong> There is no account recovery option."
 msgstr ""
 
-msgid "Continue"
+msgid "Continue to Submissions Page"
 msgstr ""
 
 msgid "Your Tor Browser's <a id=\"disable-js\" href=\"\"><b>Security Level</b></a> is too low. Use the <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\"> button in your browser’s toolbar to change it."
@@ -866,7 +900,7 @@ msgstr ""
 msgid "<strong>It is recommended to use Tor Browser to access SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
 msgstr ""
 
-msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" aria-label=\"Learn how to install Tor Browser\" href=\"{tor_browser_url}\" >Learn how to install it</a>, or ignore this warning to continue."
 msgstr ""
 
 msgid "{} logo"
@@ -878,7 +912,7 @@ msgstr ""
 msgid "First time submitting to our SecureDrop? Start here."
 msgstr ""
 
-msgid "Get Started"
+msgid "Get Started With Your First Submission"
 msgstr ""
 
 msgid "GET STARTED"
@@ -890,10 +924,16 @@ msgstr ""
 msgid "Already have a codename? Check for replies or submit something new."
 msgstr ""
 
+msgid "Log In Again Using A Previous Codename"
+msgstr ""
+
 msgid "Enter Codename"
 msgstr ""
 
 msgid "Enter your codename"
+msgstr ""
+
+msgid "Cancel and Return to Previous Page"
 msgstr ""
 
 msgid "CANCEL"
@@ -932,7 +972,10 @@ msgstr ""
 msgid "Anti-spam check. Do not fill this in!"
 msgstr ""
 
-msgid "Submit"
+msgid "Cancel and Clear Uploaded Content"
+msgstr ""
+
+msgid "Submit Uploaded Content to the SecureDrop"
 msgstr ""
 
 msgid "Read Replies"
@@ -945,6 +988,9 @@ msgid "Delete this reply"
 msgstr ""
 
 msgid "Delete reply from {timestamp}?"
+msgstr ""
+
+msgid "Delete Reply"
 msgstr ""
 
 msgid "Delete All Replies"
@@ -1005,6 +1051,9 @@ msgid "Remember, your codename is:"
 msgstr ""
 
 msgid "Codename"
+msgstr ""
+
+msgid "Make Codename Visible on the Display"
 msgstr ""
 
 msgid "Show Codename"

@@ -398,8 +398,10 @@ msgstr "ȘTERGE"
 msgid "No users to display"
 msgstr "Nu sunt utilizatori de afișat"
 
-msgid "Update instance config"
-msgstr ""
+#, fuzzy
+#| msgid "Instance Configuration"
+msgid "Update instance configuration"
+msgstr "Configurarea instanței"
 
 msgid "INSTANCE CONFIG"
 msgstr "CONFIGURAREA INSTANȚEI"
@@ -465,6 +467,9 @@ msgstr "Administrator"
 msgid "Log Out"
 msgstr "Deconectare"
 
+msgid "Return to Main View"
+msgstr ""
+
 #, fuzzy
 #| msgid "Powered by <em>SecureDrop {version}</em>."
 msgid "Powered by <b>SecureDrop {version}</b>."
@@ -479,8 +484,18 @@ msgstr "Toate sursele"
 msgid "All messages, files, and replies from sources are stored as encrypted files for security. To read them, you will need to decrypt them on your Secure Viewing Station."
 msgstr "Toate mesajele, fișierele și răspunsurile de la surse sunt stocate ca fișiere criptate pentru securitate. Pentru a le citi, trebuie să le decriptezi pe stația de afișare securizată."
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Files"
+msgstr "Descarcă selecția"
+
 msgid "Download Selected"
 msgstr "Descarcă selecția"
+
+#, fuzzy
+#| msgid "Delete Selected"
+msgid "Delete Selected Files"
+msgstr "Șterge selecția"
 
 msgid "Delete Selected"
 msgstr "Șterge selecția"
@@ -544,6 +559,19 @@ msgstr "Șterge contul de sursă"
 
 msgid "Are you sure?"
 msgstr "Ești sigur(ă)?"
+
+msgid ""
+"<p>\n"
+"Deleting the account for <b>{source}</b> will:\n"
+"</p>\n"
+"<ul>\n"
+"<li>prevent them from logging in with their codename again\n"
+"<li>prevent your organization from sending replies\n"
+"</ul>\n"
+"<p>\n"
+"All files, messages, and replies will also be deleted when their account is deleted.\n"
+"</p>"
+msgstr ""
 
 msgid "Yes, Delete Source Account"
 msgstr "Da, șterge contul de sursă"
@@ -702,14 +730,30 @@ msgstr "RESETEAZĂ DATELE DE AUTENTIFICARE PENTRU CHEIA DE SECURITATE"
 msgid "Reset Security Key Credentials"
 msgstr ""
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Unread Submissions"
+msgstr "Descarcă selecția"
+
 msgid "Download Unread"
 msgstr "Descarcă necitite"
+
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Submissions"
+msgstr "Descarcă selecția"
 
 msgid "Download"
 msgstr "Descarcă"
 
+msgid "Star Selected Submissions"
+msgstr ""
+
 msgid "Star"
 msgstr "Marchează cu stea"
+
+msgid "Un-star Selected Submissions"
+msgstr ""
 
 msgid "Un-star"
 msgstr "Elimină marcajul cu stea"
@@ -769,9 +813,9 @@ msgid "Show password"
 msgstr "Arată parola"
 
 #, fuzzy
-#| msgid "Log Out"
-msgid "Log In"
-msgstr "Deconectare"
+#| msgid "Login to access the journalist interface"
+msgid "Log In to Journalist Interface"
+msgstr "Autentifică-te pentru acces la interfața jurnalistului"
 
 msgid "LOG IN"
 msgstr "CONECTARE"
@@ -907,8 +951,10 @@ msgstr ""
 msgid "<strong>Keep it safe.</strong> There is no account recovery option."
 msgstr ""
 
-msgid "Continue"
-msgstr ""
+#, fuzzy
+#| msgid "Back to submission page"
+msgid "Continue to Submissions Page"
+msgstr "Înapoi la pagina de trimitere"
 
 msgid "Your Tor Browser's <a id=\"disable-js\" href=\"\"><b>Security Level</b></a> is too low. Use the <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\"> button in your browser’s toolbar to change it."
 msgstr "<a id=\"disable-js\" href=\"\"><b>Nivelul de securitate</b></a> din browserul tău Tor este prea slab. Folosește butonul <img src=\"{icon}\" alt=\"&quot;Nivelul de securitate&quot;\"> &nbsp;din bara de instrumente a browserului pentru a-l schimba."
@@ -935,7 +981,9 @@ msgstr "<a href=\"/\">Reîmprospătează pagina</a>, și ai terminat!"
 msgid "<strong>It is recommended to use Tor Browser to access SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>Îți recomandăm să folosești browserul Tor pentru a accesa SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Află cum îl poți instala</a> sau ignoră acest avertisment pentru a continua."
 
-msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+#, fuzzy
+#| msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" aria-label=\"Learn how to install Tor Browser\" href=\"{tor_browser_url}\" >Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>Îți recomandăm să folosești browserul Tor în versiunea pentru calculator ca să accesezi SecureDrop, deoarece Orfox nu oferă același nivel de securitate și anonimitate.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Află cum îl poți instala</a> sau ignoră acest avertisment pentru a continua."
 
 msgid "{} logo"
@@ -947,7 +995,7 @@ msgstr "Prima trimitere"
 msgid "First time submitting to our SecureDrop? Start here."
 msgstr "Este prima dată când trimiți ceva pe SecureDrop? Începe de aici."
 
-msgid "Get Started"
+msgid "Get Started With Your First Submission"
 msgstr ""
 
 msgid "GET STARTED"
@@ -959,11 +1007,17 @@ msgstr "Am revenit"
 msgid "Already have a codename? Check for replies or submit something new."
 msgstr "Ai deja un nume de cod? Vezi dacă ai primit răspunsuri sau trimite ceva nou."
 
+msgid "Log In Again Using A Previous Codename"
+msgstr ""
+
 msgid "Enter Codename"
 msgstr "Introdu numele de cod"
 
 msgid "Enter your codename"
 msgstr "Introdu numele tău de cod"
+
+msgid "Cancel and Return to Previous Page"
+msgstr ""
 
 msgid "CANCEL"
 msgstr "RENUNȚĂ"
@@ -1004,7 +1058,10 @@ msgstr "Trebuie să aibă cel puțin {num} caracter."
 msgid "Anti-spam check. Do not fill this in!"
 msgstr ""
 
-msgid "Submit"
+msgid "Cancel and Clear Uploaded Content"
+msgstr ""
+
+msgid "Submit Uploaded Content to the SecureDrop"
 msgstr ""
 
 msgid "Read Replies"
@@ -1018,6 +1075,11 @@ msgstr "Ștergi acest răspuns"
 
 msgid "Delete reply from {timestamp}?"
 msgstr ""
+
+#, fuzzy
+#| msgid "Delete this reply"
+msgid "Delete Reply"
+msgstr "Ștergi acest răspuns"
 
 #, fuzzy
 #| msgid "Delete this reply?"
@@ -1089,6 +1151,9 @@ msgstr "Reține, numele tău de cod este:"
 msgid "Codename"
 msgstr "Introdu numele de cod"
 
+msgid "Make Codename Visible on the Display"
+msgstr ""
+
 #, fuzzy
 #| msgid "Enter Codename"
 msgid "Show Codename"
@@ -1133,6 +1198,11 @@ msgstr "<strong>Important:</strong> Dacă vrei să rămâi anonim(ă), <strong>n
 
 msgid "Back to submission page"
 msgstr "Înapoi la pagina de trimitere"
+
+#, fuzzy
+#~| msgid "Log Out"
+#~ msgid "Log In"
+#~ msgstr "Deconectare"
 
 #~ msgid "Forgot your codename?"
 #~ msgstr "Ți-ai uitat numele de cod?"

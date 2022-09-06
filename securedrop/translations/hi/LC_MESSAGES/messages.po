@@ -388,8 +388,10 @@ msgstr "हटाएँ"
 msgid "No users to display"
 msgstr "प्रदर्शित करने के लिए कोई उपयोगकर्ता नहीं"
 
-msgid "Update instance config"
-msgstr ""
+#, fuzzy
+#| msgid "Instance Configuration"
+msgid "Update instance configuration"
+msgstr "इंस्टेंस कॉन्फ़िगरेशन"
 
 msgid "INSTANCE CONFIG"
 msgstr "इंस्टैंस कॉन्फिग"
@@ -455,6 +457,9 @@ msgstr "व्यवस्थापक"
 msgid "Log Out"
 msgstr "लोग आउट"
 
+msgid "Return to Main View"
+msgstr ""
+
 #, fuzzy
 #| msgid "Powered by <em>SecureDrop {version}</em>."
 msgid "Powered by <b>SecureDrop {version}</b>."
@@ -469,8 +474,18 @@ msgstr "सभी स्रोत"
 msgid "All messages, files, and replies from sources are stored as encrypted files for security. To read them, you will need to decrypt them on your Secure Viewing Station."
 msgstr "स्रोतों से सभी संदेश, फ़ाइलें और उत्तर सुरक्षा के लिए एन्क्रिप्टेड फ़ाइलों के रूप में संग्रहीत किए जाते हैं। उन्हें पढ़ने के लिए, आपको उन्हें अपने सिक्योर व्यूइंग स्टेशन पर डिक्रिप्ट करना होगा।"
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Files"
+msgstr "डाउनलोड चयनित"
+
 msgid "Download Selected"
 msgstr "डाउनलोड चयनित"
+
+#, fuzzy
+#| msgid "Delete Selected"
+msgid "Delete Selected Files"
+msgstr "चयनित मिटाएं"
 
 msgid "Delete Selected"
 msgstr "चयनित मिटाएं"
@@ -534,6 +549,19 @@ msgstr "स्रोत खाता हटाएं"
 
 msgid "Are you sure?"
 msgstr "क्या आपको यकीन है?"
+
+msgid ""
+"<p>\n"
+"Deleting the account for <b>{source}</b> will:\n"
+"</p>\n"
+"<ul>\n"
+"<li>prevent them from logging in with their codename again\n"
+"<li>prevent your organization from sending replies\n"
+"</ul>\n"
+"<p>\n"
+"All files, messages, and replies will also be deleted when their account is deleted.\n"
+"</p>"
+msgstr ""
 
 msgid "Yes, Delete Source Account"
 msgstr "हाँ, स्रोत खाता हटाएं"
@@ -692,14 +720,30 @@ msgstr "सुरक्षा कुंजी क्रेडेंशियल�
 msgid "Reset Security Key Credentials"
 msgstr ""
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Unread Submissions"
+msgstr "डाउनलोड चयनित"
+
 msgid "Download Unread"
 msgstr "न पढ़े मसाज डाउनलोड करें"
+
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Submissions"
+msgstr "डाउनलोड चयनित"
 
 msgid "Download"
 msgstr "डाउनलोड"
 
+msgid "Star Selected Submissions"
+msgstr ""
+
 msgid "Star"
 msgstr "तारांकित करें"
+
+msgid "Un-star Selected Submissions"
+msgstr ""
 
 msgid "Un-star"
 msgstr "स्टार को हटा दें"
@@ -759,9 +803,9 @@ msgid "Show password"
 msgstr "पासवर्ड दिखाएं"
 
 #, fuzzy
-#| msgid "Log Out"
-msgid "Log In"
-msgstr "लोग आउट"
+#| msgid "Login to access the journalist interface"
+msgid "Log In to Journalist Interface"
+msgstr "पत्रकार इंटरफेस प्रवेशने के लिए लॉगिन करें"
 
 msgid "LOG IN"
 msgstr "लॉग इन"
@@ -897,8 +941,10 @@ msgstr ""
 msgid "<strong>Keep it safe.</strong> There is no account recovery option."
 msgstr ""
 
-msgid "Continue"
-msgstr ""
+#, fuzzy
+#| msgid "Back to submission page"
+msgid "Continue to Submissions Page"
+msgstr "सबमिशन पृष्ठ पर वापस जाएं"
 
 msgid "Your Tor Browser's <a id=\"disable-js\" href=\"\"><b>Security Level</b></a> is too low. Use the <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\"> button in your browser’s toolbar to change it."
 msgstr "आपके Tor ब्राउज़र का <a id=\"disable-js\" href=\"\"><b>सुरक्षा स्तर</b></a> बहुत कम है। ब्राउज़र टूलबार के <img src=\"{icon}\" alt=\"&quot;सुरक्षा स्तर&quot;\"> &nbsp;बटन से इसे बदलें।"
@@ -923,7 +969,9 @@ msgstr "<a href=\"/\">पेज रीफ़्रेश करें</a> और �
 msgid "<strong>It is recommended to use Tor Browser to access SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>SecureDrop तक पहुंचने के लिए Tor ब्राउज़र का उपयोग करने की अनुशंसा की जाती है:</strong><a class=\"recommend-tor\" href=\"{tor_browser_url}\">इसे इस्तमाल करने के बारे में जानें</a>, या जारी रखने के लिए इस चेतावनी को अनदेखा करें|"
 
-msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+#, fuzzy
+#| msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" aria-label=\"Learn how to install Tor Browser\" href=\"{tor_browser_url}\" >Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>यह अनुशंसा की जाती है कि आप SecureDrop तक पहुंचने के लिए Tor ब्राउजर के डेस्कटॉप संस्करण का उपयोग करें, क्योंकि Orfox समान स्तर की सुरक्षा और डेस्कटॉप संस्करण के जितना गुमनाम नहीं प्रदान करता है।</strong><a class=\"recommend-tor\" href=\"{tor_browser_url}\">इसे इंस्टॉल करने के बारे में जानें</a>, या जारी रखने के लिए इस चेतावनी को अनदेखा करें।"
 
 msgid "{} logo"
@@ -935,7 +983,7 @@ msgstr "पहला सबमिशन"
 msgid "First time submitting to our SecureDrop? Start here."
 msgstr "पहली बार हमारे सिक्योरड्रॉप को सबमिट करना?, तो यहां से शुरू करें।"
 
-msgid "Get Started"
+msgid "Get Started With Your First Submission"
 msgstr ""
 
 msgid "GET STARTED"
@@ -947,11 +995,17 @@ msgstr "वापसी का दौरा"
 msgid "Already have a codename? Check for replies or submit something new."
 msgstr "पहले से ही एक संकेत नाम है? उत्तर के लिए जांचें या कुछ नया सबमिट करें।"
 
+msgid "Log In Again Using A Previous Codename"
+msgstr ""
+
 msgid "Enter Codename"
 msgstr "संकेत नाम दर्ज करें"
 
 msgid "Enter your codename"
 msgstr "आपका संकेत नाम दर्ज करें"
+
+msgid "Cancel and Return to Previous Page"
+msgstr ""
 
 msgid "CANCEL"
 msgstr "रद्द करें"
@@ -992,7 +1046,10 @@ msgstr "कम से कम {num} वर्ण लंबा होना चा
 msgid "Anti-spam check. Do not fill this in!"
 msgstr ""
 
-msgid "Submit"
+msgid "Cancel and Clear Uploaded Content"
+msgstr ""
+
+msgid "Submit Uploaded Content to the SecureDrop"
 msgstr ""
 
 msgid "Read Replies"
@@ -1006,6 +1063,11 @@ msgstr "यह उत्तर हटाएं"
 
 msgid "Delete reply from {timestamp}?"
 msgstr ""
+
+#, fuzzy
+#| msgid "Delete this reply"
+msgid "Delete Reply"
+msgstr "यह उत्तर हटाएं"
 
 #, fuzzy
 #| msgid "Delete this reply?"
@@ -1077,6 +1139,9 @@ msgstr "याद रखें, आपका संकेत नाम है:"
 msgid "Codename"
 msgstr "संकेत नाम दर्ज करें"
 
+msgid "Make Codename Visible on the Display"
+msgstr ""
+
 #, fuzzy
 #| msgid "Enter Codename"
 msgid "Show Codename"
@@ -1121,6 +1186,11 @@ msgstr "<strong>महत्वपूर्ण:</strong> यदि आप गु
 
 msgid "Back to submission page"
 msgstr "सबमिशन पृष्ठ पर वापस जाएं"
+
+#, fuzzy
+#~| msgid "Log Out"
+#~ msgid "Log In"
+#~ msgstr "लोग आउट"
 
 #~ msgid "Forgot your codename?"
 #~ msgstr "अपना संकेत नाम भूल गए?"

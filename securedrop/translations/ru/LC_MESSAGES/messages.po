@@ -386,7 +386,9 @@ msgstr "УДАЛИТЬ"
 msgid "No users to display"
 msgstr "Нет пользователей для отображения"
 
-msgid "Update instance config"
+#, fuzzy
+#| msgid "Update instance config"
+msgid "Update instance configuration"
 msgstr "Обновить конфигурацию экземпляра"
 
 msgid "INSTANCE CONFIG"
@@ -449,6 +451,9 @@ msgstr "Администратор"
 msgid "Log Out"
 msgstr "Выйти"
 
+msgid "Return to Main View"
+msgstr ""
+
 msgid "Powered by <b>SecureDrop {version}</b>."
 msgstr "Основано на <b>SecureDrop {version}</b>."
 
@@ -461,8 +466,18 @@ msgstr "Все источники"
 msgid "All messages, files, and replies from sources are stored as encrypted files for security. To read them, you will need to decrypt them on your Secure Viewing Station."
 msgstr "Все сообщения, файлы и ответы источника хранятся в зашифрованном виде для обеспечения безопасности. Чтобы прочитать их, вам потребуется расшифровка при помощи SVS."
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Files"
+msgstr "Загрузить выбранное"
+
 msgid "Download Selected"
 msgstr "Загрузить выбранное"
+
+#, fuzzy
+#| msgid "Delete Selected"
+msgid "Delete Selected Files"
+msgstr "Удалить выбранное"
 
 msgid "Delete Selected"
 msgstr "Удалить выбранное"
@@ -520,6 +535,19 @@ msgstr "Удалить учетную запись источника"
 
 msgid "Are you sure?"
 msgstr "Вы уверены?"
+
+msgid ""
+"<p>\n"
+"Deleting the account for <b>{source}</b> will:\n"
+"</p>\n"
+"<ul>\n"
+"<li>prevent them from logging in with their codename again\n"
+"<li>prevent your organization from sending replies\n"
+"</ul>\n"
+"<p>\n"
+"All files, messages, and replies will also be deleted when their account is deleted.\n"
+"</p>"
+msgstr ""
 
 msgid "Yes, Delete Source Account"
 msgstr "Да, удалить учетную запись источника"
@@ -668,14 +696,30 @@ msgstr "СБРОСИТЬ ДОСТУП ЭЛЕКТРОННОГО КЛЮЧА"
 msgid "Reset Security Key Credentials"
 msgstr "Сброс учетных данных ключа безопасности"
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Unread Submissions"
+msgstr "Загрузить выбранное"
+
 msgid "Download Unread"
 msgstr "Загрузить непрочитанное"
+
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Submissions"
+msgstr "Загрузить выбранное"
 
 msgid "Download"
 msgstr "Загрузить"
 
+msgid "Star Selected Submissions"
+msgstr ""
+
 msgid "Star"
 msgstr "Отметить"
+
+msgid "Un-star Selected Submissions"
+msgstr ""
 
 msgid "Un-star"
 msgstr "Снять отметку"
@@ -728,8 +772,10 @@ msgstr "Пароль"
 msgid "Show password"
 msgstr "Показать пароль"
 
-msgid "Log In"
-msgstr "Авторизация"
+#, fuzzy
+#| msgid "Login to access the journalist interface"
+msgid "Log In to Journalist Interface"
+msgstr "Войдите, чтобы получить доступ к панели журналиста"
 
 msgid "LOG IN"
 msgstr "Войти"
@@ -854,8 +900,10 @@ msgstr "<strong>Сохраняйте его в тайне.</strong> Не дел�
 msgid "<strong>Keep it safe.</strong> There is no account recovery option."
 msgstr "<strong>Сохраняйте его в безопасности.</strong> Возможность восстановления аккаунта отсутствует."
 
-msgid "Continue"
-msgstr "Продолжить"
+#, fuzzy
+#| msgid "Back to submission page"
+msgid "Continue to Submissions Page"
+msgstr "Вернуться на страницу отправки"
 
 msgid "Your Tor Browser's <a id=\"disable-js\" href=\"\"><b>Security Level</b></a> is too low. Use the <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\"> button in your browser’s toolbar to change it."
 msgstr "<a id=\"disable-js\" href=\"\"><b>Уровень безопасности</b></a> вашего Tor-браузера слишком низкий. Используйте кнопку <img src=\"{icon}\" alt=\"&quot;Уровень безопасности&quot;\"> на панели инструментов браузера, чтобы изменить его."
@@ -878,7 +926,9 @@ msgstr "<a href=\"/\" aria-label=\"Следуйте этим инструкци�
 msgid "<strong>It is recommended to use Tor Browser to access SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>Рекомендуется использовать Tor Browser для доступа к SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Узнайте, как его установить</a>, или проигнорируйте для продолжения."
 
-msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+#, fuzzy
+#| msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" aria-label=\"Learn how to install Tor Browser\" href=\"{tor_browser_url}\" >Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>Рекомендуется использовать настольную версию Tor Browser для доступа к SecureDrop, так как Orfox не обеспечивает необходимый уровень безопасности и анонимности в отличие от версии для компьютера.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Узнайте, как его установить</a>, или проигнорируйте для продолжения."
 
 msgid "{} logo"
@@ -890,8 +940,8 @@ msgstr "Первая отправка"
 msgid "First time submitting to our SecureDrop? Start here."
 msgstr "Если вы впервые отправляете журналистам, начните здесь."
 
-msgid "Get Started"
-msgstr "Начать"
+msgid "Get Started With Your First Submission"
+msgstr ""
 
 msgid "GET STARTED"
 msgstr "НАЧАТЬ"
@@ -902,11 +952,17 @@ msgstr "Повторный визит"
 msgid "Already have a codename? Check for replies or submit something new."
 msgstr "Уже получали код? Введите для проверки ответов."
 
+msgid "Log In Again Using A Previous Codename"
+msgstr ""
+
 msgid "Enter Codename"
 msgstr "Введите кодовое имя"
 
 msgid "Enter your codename"
 msgstr "Введите ваше кодовое имя"
+
+msgid "Cancel and Return to Previous Page"
+msgstr ""
 
 msgid "CANCEL"
 msgstr "ОТМЕНИТЬ"
@@ -944,8 +1000,11 @@ msgstr "Если вы отправляете только сообщение, о
 msgid "Anti-spam check. Do not fill this in!"
 msgstr "Проверка антиспама. Не заполняйте это поле!"
 
-msgid "Submit"
-msgstr "Принять"
+msgid "Cancel and Clear Uploaded Content"
+msgstr ""
+
+msgid "Submit Uploaded Content to the SecureDrop"
+msgstr ""
 
 msgid "Read Replies"
 msgstr "Читать ответы"
@@ -958,6 +1017,11 @@ msgstr "Удалить этот ответ"
 
 msgid "Delete reply from {timestamp}?"
 msgstr "Удалить ответ из {timestamp}?"
+
+#, fuzzy
+#| msgid "Delete this reply"
+msgid "Delete Reply"
+msgstr "Удалить этот ответ"
 
 msgid "Delete All Replies"
 msgstr "Удалить все ответы"
@@ -1019,6 +1083,9 @@ msgstr "Запомните, что ваше кодовое имя:"
 msgid "Codename"
 msgstr "Псевдоним"
 
+msgid "Make Codename Visible on the Display"
+msgstr ""
+
 msgid "Show Codename"
 msgstr "Показать псевдоним"
 
@@ -1061,6 +1128,18 @@ msgstr "<strong>Внимание:</strong> Если вы хотите сохра
 
 msgid "Back to submission page"
 msgstr "Вернуться на страницу отправки"
+
+#~ msgid "Log In"
+#~ msgstr "Авторизация"
+
+#~ msgid "Continue"
+#~ msgstr "Продолжить"
+
+#~ msgid "Get Started"
+#~ msgstr "Начать"
+
+#~ msgid "Submit"
+#~ msgstr "Принять"
 
 #~ msgid "Forgot your codename?"
 #~ msgstr "Забыли ваше кодовое имя?"

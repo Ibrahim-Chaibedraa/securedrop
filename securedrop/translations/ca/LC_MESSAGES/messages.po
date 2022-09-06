@@ -376,7 +376,9 @@ msgstr "SUPRIMEIX"
 msgid "No users to display"
 msgstr "No hi ha cap usuari per mostrar"
 
-msgid "Update instance config"
+#, fuzzy
+#| msgid "Update instance config"
+msgid "Update instance configuration"
 msgstr "Actualitza la configuració de la instància"
 
 msgid "INSTANCE CONFIG"
@@ -439,6 +441,9 @@ msgstr "Administrador"
 msgid "Log Out"
 msgstr "Tanca la sessió"
 
+msgid "Return to Main View"
+msgstr ""
+
 msgid "Powered by <b>SecureDrop {version}</b>."
 msgstr "Funciona amb <b>SecureDrop {version}</b>."
 
@@ -451,8 +456,18 @@ msgstr "Totes les fonts"
 msgid "All messages, files, and replies from sources are stored as encrypted files for security. To read them, you will need to decrypt them on your Secure Viewing Station."
 msgstr "Per motius de seguretat, tots els missatges, fitxers i respostes de les fonts s'emmagatzemen com a fitxers xifrats. Per llegir-los, desxifreu-los únicament en un dispositiu de visualització segura."
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Files"
+msgstr "Baixa la selecció"
+
 msgid "Download Selected"
 msgstr "Baixa la selecció"
+
+#, fuzzy
+#| msgid "Delete Selected"
+msgid "Delete Selected Files"
+msgstr "Suprimeix la selecció"
 
 msgid "Delete Selected"
 msgstr "Suprimeix la selecció"
@@ -510,6 +525,19 @@ msgstr "Suprimeix el compte font"
 
 msgid "Are you sure?"
 msgstr "N'esteu segur?"
+
+msgid ""
+"<p>\n"
+"Deleting the account for <b>{source}</b> will:\n"
+"</p>\n"
+"<ul>\n"
+"<li>prevent them from logging in with their codename again\n"
+"<li>prevent your organization from sending replies\n"
+"</ul>\n"
+"<p>\n"
+"All files, messages, and replies will also be deleted when their account is deleted.\n"
+"</p>"
+msgstr ""
 
 msgid "Yes, Delete Source Account"
 msgstr "Sí, suprimeix el compte font"
@@ -658,14 +686,30 @@ msgstr "RESTABLEIX LES CREDENCIALS DE CLAUS DE SEGURETAT"
 msgid "Reset Security Key Credentials"
 msgstr "Reinicia les claus i credencials de seguretat"
 
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Unread Submissions"
+msgstr "Baixa la selecció"
+
 msgid "Download Unread"
 msgstr "Baixa les pendents de llegir"
+
+#, fuzzy
+#| msgid "Download Selected"
+msgid "Download Selected Submissions"
+msgstr "Baixa la selecció"
 
 msgid "Download"
 msgstr "Baixa"
 
+msgid "Star Selected Submissions"
+msgstr ""
+
 msgid "Star"
 msgstr "Marca"
+
+msgid "Un-star Selected Submissions"
+msgstr ""
 
 msgid "Un-star"
 msgstr "Desmarca"
@@ -718,8 +762,10 @@ msgstr "Contrasenya"
 msgid "Show password"
 msgstr "Mostra la contrasenya"
 
-msgid "Log In"
-msgstr "Inicia la sessió"
+#, fuzzy
+#| msgid "Login to access the journalist interface"
+msgid "Log In to Journalist Interface"
+msgstr "Inicieu la sessió per accedir a la interfície de periodista"
 
 msgid "LOG IN"
 msgstr "INICIA LA SESSIÓ"
@@ -844,8 +890,10 @@ msgstr "<strong>Mantingueu-lo secret.</strong> No el compartiu amb ningú."
 msgid "<strong>Keep it safe.</strong> There is no account recovery option."
 msgstr "<strong>Mantingueu-lo segur.</strong> No hi ha cap opció de restauració."
 
-msgid "Continue"
-msgstr "Continua"
+#, fuzzy
+#| msgid "Back to submission page"
+msgid "Continue to Submissions Page"
+msgstr "Torna a la pàgina d'enviaments"
 
 msgid "Your Tor Browser's <a id=\"disable-js\" href=\"\"><b>Security Level</b></a> is too low. Use the <img src=\"{icon}\" alt=\"&quot;Security Level&quot;\"> button in your browser’s toolbar to change it."
 msgstr "El <a id=\"disable-js\" href=\"\"><b>nivell de seguretat</b></a> del vostre navegador Tor és massa baix. Useu el botó <img src=\"{icon}\" alt=\"&quot;Nivell de seguretat&quot;\"> de la barra d'eines del navegador per a canviar-ho."
@@ -868,7 +916,9 @@ msgstr "<a href=\"/\" aria-label=\"Seguiu les instruccions, actualitzeu la pàgi
 msgid "<strong>It is recommended to use Tor Browser to access SecureDrop:</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>És recomanable l'ús del navegador Tor per accedir al SecureDrop:</strong><a class=\"recommend-tor\" href=\"{tor_browser_url}\">Apreneu com instal·lar-lo</a> o ignoreu aquest avís per a continuar."
 
-msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+#, fuzzy
+#| msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" href=\"{tor_browser_url}\">Learn how to install it</a>, or ignore this warning to continue."
+msgid "<strong>It is recommended you use the desktop version of Tor Browser to access SecureDrop, as Orfox does not provide the same level of security and anonymity as the desktop version.</strong> <a class=\"recommend-tor\" aria-label=\"Learn how to install Tor Browser\" href=\"{tor_browser_url}\" >Learn how to install it</a>, or ignore this warning to continue."
 msgstr "<strong>És recomanable que useu la versió d'escriptori del navegador Tor per a accedir al SecureDrop, atès que l'Orfox no proporciona el mateix nivell de seguretat i anonimat que la versió d'escriptori.</strong><a class=\"recommend-tor\" href=\"{tor_browser_url}\">Apreneu com instal·lar-lo</a> o ignoreu aquest avís per a continuar."
 
 msgid "{} logo"
@@ -880,8 +930,8 @@ msgstr "Primer enviament"
 msgid "First time submitting to our SecureDrop? Start here."
 msgstr "És el primer cop que envieu informació amb el SecureDrop? Comenceu aquí."
 
-msgid "Get Started"
-msgstr "Primers passos"
+msgid "Get Started With Your First Submission"
+msgstr ""
 
 msgid "GET STARTED"
 msgstr "PRIMERS PASSOS"
@@ -892,11 +942,17 @@ msgstr "Cap novetat?"
 msgid "Already have a codename? Check for replies or submit something new."
 msgstr "Si ja teniu un nom en clau, entreu i comproveu les respostes o envieu quelcom nou."
 
+msgid "Log In Again Using A Previous Codename"
+msgstr ""
+
 msgid "Enter Codename"
 msgstr "Introduïu el nom en clau"
 
 msgid "Enter your codename"
 msgstr "Introduïu el vostre nom en clau"
+
+msgid "Cancel and Return to Previous Page"
+msgstr ""
 
 msgid "CANCEL"
 msgstr "CANCEL·LA"
@@ -934,8 +990,11 @@ msgstr "Si només esteu enviant un missatge, aquest cal que tingui com a mínim 
 msgid "Anti-spam check. Do not fill this in!"
 msgstr "Comprovació de contingut brossa. Deixeu-ho sense emplenar!"
 
-msgid "Submit"
-msgstr "Envia"
+msgid "Cancel and Clear Uploaded Content"
+msgstr ""
+
+msgid "Submit Uploaded Content to the SecureDrop"
+msgstr ""
 
 msgid "Read Replies"
 msgstr "Llegiu les respostes"
@@ -948,6 +1007,11 @@ msgstr "Suprimeix aquesta resposta"
 
 msgid "Delete reply from {timestamp}?"
 msgstr "Voleu suprimir la resposta de {timestamp}?"
+
+#, fuzzy
+#| msgid "Delete this reply"
+msgid "Delete Reply"
+msgstr "Suprimeix aquesta resposta"
 
 msgid "Delete All Replies"
 msgstr "Suprimeix totes les respostes"
@@ -1009,6 +1073,9 @@ msgstr "Recordeu, el vostre nom en clau és:"
 msgid "Codename"
 msgstr "Nom en clau"
 
+msgid "Make Codename Visible on the Display"
+msgstr ""
+
 msgid "Show Codename"
 msgstr "Mostra el nom en clau"
 
@@ -1051,6 +1118,18 @@ msgstr "<strong>Important:</strong> si voleu romandre en l'anonimat, <strong>no<
 
 msgid "Back to submission page"
 msgstr "Torna a la pàgina d'enviaments"
+
+#~ msgid "Log In"
+#~ msgstr "Inicia la sessió"
+
+#~ msgid "Continue"
+#~ msgstr "Continua"
+
+#~ msgid "Get Started"
+#~ msgstr "Primers passos"
+
+#~ msgid "Submit"
+#~ msgstr "Envia"
 
 #~ msgid "Forgot your codename?"
 #~ msgstr "Heu oblidat el vostre nom en clau?"
