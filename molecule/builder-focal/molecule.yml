@@ -19,9 +19,6 @@ platforms:
   - name: focal-sd-generic-ossec-server2
     groups:
       - builders
-  - name: focal-sd-grsec
-    groups:
-      - builders
   - name: focal-sd-config
     groups:
       - builders

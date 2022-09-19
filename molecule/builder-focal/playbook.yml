@@ -40,12 +40,6 @@
       when: ansible_host.endswith("-sd-keyring") or ansible_host == "localhost"
 
     - role: build-generic-pkg
-      tags: securedrop-grsec
-      package_name: securedrop-grsec
-      package_dirname: securedrop-grsec-focal
-      when: ansible_host.endswith("-sd-grsec") or ansible_host == "localhost"
-
-    - role: build-generic-pkg
       tags: securedrop-config
       package_name: securedrop-config
       package_dirname: securedrop-config-focal
