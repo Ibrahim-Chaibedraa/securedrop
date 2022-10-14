@@ -100,8 +100,7 @@ def checkenv(args: argparse.Namespace) -> None:
 def maybe_torify() -> List[str]:
     if is_tails():
         return ["torify"]
-    else:
-        return []
+    return []
 
 
 def install_apt_dependencies(args: argparse.Namespace) -> None:
